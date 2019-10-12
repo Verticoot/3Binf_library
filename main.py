@@ -1,8 +1,8 @@
 class Book:
-    title = "no title"
-    author = "no author"
-    sbn = 0
+    def_init_(self, title, author, sbn):
+    self.title = title
+    self.author = author
+    self.sbn = sbn
 
-harry_potter = Book()
-
-print(harry_potter.title)
+harry_potter = Book("Harry potter e il calce di fuoco", "J.K.Rowling", 1)
+print (harry_potter.title)
